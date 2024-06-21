@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "decky-plugin-template"
+version = "0.1.0"
+description = ""
+authors = ["Ian Hsu <ian927@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+nmcli = "^1.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
